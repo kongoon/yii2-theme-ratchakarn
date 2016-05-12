@@ -1,10 +1,16 @@
 body{
-    font-family: Verdana, Tahoma, arial, sans-serif;	
+    font-family: Verdana, Tahoma, arial, sans-serif;
     margin:0;
     padding:0;
     border:0;
     color: #333;
-    background: #fff url(../img/bg_html.jpg) no-repeat -450px 0;
+
+}
+.bg-green {
+    background: #fff url(../img/bg_green.jpg) no-repeat -450px 0;
+}
+.bg-blue {
+    background: #fff url(../img/bg-blue.jpg) no-repeat -450px 0;
 }
 .pull-down > * {
     float: none;
@@ -47,7 +53,7 @@ div.required label.control-label:after {
 
 /*LEFT MENU CONTENT*/
 .left-content-active{
-    
+
 }
 .left-content-hide{
     display: none;
@@ -104,7 +110,7 @@ div.required label.control-label:after {
     margin-top: 50px;
 }
 .menu-icon.lightbox li{
-    width: 95%!important;	
+    width: 95%!important;
 }
 .menu-icon.lightbox li p{
     margin: 0px;
