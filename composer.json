@@ -1,0 +1,23 @@
+{
+    "name": "kongoon/yii2-theme-ratchakarn",
+    "description": "Ratchakarn theme for Yii Framework 2",
+    "keywords": ["yii2", "extension", "theme", "ราชการ"],
+    "homepage": "https://github.com/kongoon/yii2-theme-ratchakarn",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manop Kongoon",
+            "email": "kongoon@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-bootstrap": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kongoon\\themes\\": ""
+        }
+    }
+}
