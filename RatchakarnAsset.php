@@ -1,5 +1,5 @@
 <?php
-namespace kongoon\yii\themes;
+namespace kongoon\yii2\themes\ratchakarn;
 
 class Ratchakarn extends  \yii\web\AssetBundle
 {

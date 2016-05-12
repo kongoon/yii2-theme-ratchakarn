@@ -6,7 +6,7 @@ use yii\helpers\Url;
 
 
 
-if(Yii::$app->controller->action->id === 'lgoin'){
+if(Yii::$app->controller->action->id === 'login'){
     echo $this->render(
         'login',
         ['content' => $content]
