@@ -28,7 +28,7 @@ RatchakarnAsset::register($this);
             <div class="row">
                 <div class="col-md-4 col-md-offset-4"><?= $content; ?></div>
             </div><!-- end .row -->
-            <?=$this->render('//_footer')?>
+            <?=$this->render('//layouts/_footer')?>
         </div><!-- end .container -->
         <?php $this->endBody() ?>
     </body>

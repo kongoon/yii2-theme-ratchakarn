@@ -7,10 +7,10 @@ body{
 
 }
 .bg-green {
-    background: #fff url(../img/bg_green.jpg) no-repeat -450px 0;
+    background: #fff url(../img/bg_green.jpg) no-repeat;
 }
 .bg-blue {
-    background: #fff url(../img/bg-blue.jpg) no-repeat -450px 0;
+    background: #fff url(../img/bg-blue.jpg) no-repeat;
 }
 .pull-down > * {
     float: none;
