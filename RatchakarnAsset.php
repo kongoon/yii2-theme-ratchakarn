@@ -1,7 +1,7 @@
 <?php
 namespace kongoon\yii2\themes\ratchakarn;
 
-class Ratchakarn extends  \yii\web\AssetBundle
+class RatchakarnAsset extends  \yii\web\AssetBundle
 {
     public $sourcePath = '@vendor/kongoon/yii2-theme-ratchakarn/assets';
     public $css = [
