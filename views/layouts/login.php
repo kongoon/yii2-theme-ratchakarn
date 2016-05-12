@@ -1,6 +1,6 @@
 <?php
 
-use kongoon\themes\ratchakarn\RatchakarnAsset;
+use kongoon\yii2\themes\ratchakarn\RatchakarnAsset;
 use yii\helpers\Html;
 
 RatchakarnAsset::register($this);

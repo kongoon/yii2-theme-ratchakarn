@@ -1,5 +1,5 @@
 <?php
-use kongoon\themes\ratchakarn\RatchakarnAsset;
+use kongoon\yii2\themes\ratchakarn\RatchakarnAsset;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\helpers\Url;
