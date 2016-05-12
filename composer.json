@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kongoon\\themes\\": ""
+            "kongoon\\yii2\\themes\\ratchakarn\\": ""
         }
     }
 }
