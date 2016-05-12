@@ -8,7 +8,22 @@ use yii\bootstrap\Nav;
     'items' => [
         [
             'label' => 'Home',
-            'url' => Yii::$app->homeUrl,
+            'url' => ['/site/index'],
+
+        ],
+        [
+            'label' => 'Login',
+            'url' => ['/site/login'],
+
+        ],
+        [
+            'label' => 'About',
+            'url' => ['/site/about'],
+
+        ],
+        [
+            'label' => 'Contact',
+            'url' => ['/site/contact'],
 
         ],
         [

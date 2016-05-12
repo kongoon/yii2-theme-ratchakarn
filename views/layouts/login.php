@@ -24,9 +24,13 @@ RatchakarnAsset::register($this);
 
     <body class="bg-green">
     <?php $this->beginBody() ?>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 col-md-offset-4"><?= $content; ?></div>
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body"><?= $content; ?></div>
+                    </div>
+                </div>
             </div><!-- end .row -->
             <?=$this->render('//layouts/_footer')?>
         </div><!-- end .container -->

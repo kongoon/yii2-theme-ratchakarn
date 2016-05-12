@@ -43,6 +43,8 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/kongoon/yii2
         <?php }else{?>
             <?=Html::a('เข้าสู่ระบบ', ['/site/login'])?>
         <?php }?>
+        <?=Html::a('เกี่ยวกับเรา', ['/site/about'])?>
+        <?=Html::a('ติดต่อ', ['/site/contact'])?>
 
     </div>
 </div><!-- end row -->
