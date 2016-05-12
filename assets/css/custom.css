@@ -26,6 +26,9 @@ body{
 .label{
 	font-weight: normal;
 }
+.small {
+	font-size: 11px;
+}
 small {
 	font-size: 10px;
 }

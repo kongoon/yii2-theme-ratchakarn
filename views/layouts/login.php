@@ -22,7 +22,7 @@ RatchakarnAsset::register($this);
         </style>
     </head>
 
-    <body>
+    <body class="bg-green">
     <?php $this->beginBody() ?>
         <div class="container">
             <div class="row">

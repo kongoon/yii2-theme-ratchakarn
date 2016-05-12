@@ -8,7 +8,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/kongoon/yii2
         <?php if (!Yii::$app->user->isGuest): // Delete when implementation  ?>
         <div>
             <h5><?php echo Yii::$app->user->identity->realname; ?></h5>
-            <ul>
+            <ul class="small">
                 <li><b>Username:</b> <?= Yii::$app->user->identity->username; ?></li>
                 <li><b>Position:</b>  <?= Yii::$app->user->identity->username; ?></li>
                 <li><b>Department:</b>  <?= Yii::$app->user->identity->username; ?></li>
@@ -24,10 +24,10 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/kongoon/yii2
         <?php endif; ?>
     </div>
     <div class="col-md-4 text-center">
-        <h1><?= Html::img($directoryAsset . '/img/logo_kruth.png', ['height' => 100, 'alt' => 'หน่วยงานราชการ']) ?></h1>
+        <h1><?= Html::a(Html::img($directoryAsset . '/img/logo_kruth.png', ['height' => 100, 'alt' => Yii::$app->name]), Yii::$app->homeUrl, ['title' => Yii::$app->name]) ?></h1>
 
     </div>
-    <div class="col-md-4 text-right">
+    <div class="col-md-4 text-right small">
 
         <?=Html::a('หน้าหลัก', Yii::$app->homeUrl)?>
         <?php if(!Yii::$app->user->isGuest){?>
