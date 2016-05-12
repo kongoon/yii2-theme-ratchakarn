@@ -19,6 +19,4 @@ class RatchakarnAsset extends  \yii\web\AssetBundle
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
     ];
-
-
 }
