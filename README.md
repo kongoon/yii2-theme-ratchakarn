@@ -3,6 +3,7 @@
 composer require kongoon/yii2-theme-ratchakarn
 
 การใช้งาน
+---
 เปิดไฟล์ frontend/config/main.php
 
 components = [
